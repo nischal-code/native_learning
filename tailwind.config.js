@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  "./src/**/*.{js,jsx,ts,tsx}",
+  "./components/**/*.{js,jsx,ts,tsx}",
+],
 
   presets: [require("nativewind/preset")],
 
@@ -46,7 +47,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: "sans-regular",
+        "sans": "sans-regular",
         "sans-light": "sans-light",
         "sans-medium": "sans-medium",
         "sans-semibold": "sans-semibold",
