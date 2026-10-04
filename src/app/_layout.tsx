@@ -6,7 +6,7 @@ import {useFonts} from "expo-font"
 // 1. Import your global CSS file for NativeWind v4
 import "@/global.css"; 
 import { useEffect } from "react";
-
+SplashScreen.preventAutoHideAsync();
 // 2. Teach NativeWind how to apply classes to the Link component
 cssInterop(Link, { className: "style" });
 

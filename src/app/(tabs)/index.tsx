@@ -42,7 +42,7 @@ export default function Home() {
           ListEmptyComponent={<Text className="py-4 text-sm font-sans-medium text-black/60">No Upcoming renewal yet.</Text>}
         />
       </View> 
-      <ListHeadings title="All Subscription" />
+      <ListHeadings title="All Subscriptions" />
           </>
         )}
           data={HOME_SUBSCRIPTIONS}
